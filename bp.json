@@ -1,3 +1,58 @@
 {
-Test: true
+  "producer_account_name": "bp@dmaildotco",
+  "org": {
+    "candidate_name": "DMail",
+    "website": "https://dmail.co",
+    "code_of_conduct": "https://dmail.co",
+    "ownership_disclosure": "https://dmail.co",
+    "email": "admin@dmail.co",
+    "github_user": "dmail-co",
+    "chain_resources": "https://dmail.co",
+    "branding": {
+      "logo_256": "https://dmail.co/logo_256.png",
+      "logo_1024": "https://dmail.co/logo_1024.png"
+    },
+    "location": {
+      "name": "California",
+      "country": "US",
+      "latitude": 36.7783,
+      "longitude": 119.4179
+    },
+    "social": {
+      "github": "Gandalf-the-Grey",
+      "telegram": "Gandalf_the_Grey"
+    }
+  },
+  "nodes": [{
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "query",
+      "api_endpoint": "http://api.dmail.co",
+      "ssl_endpoint": "https://api.dmail.co",
+      "features": ["chain-api","fio-api"]
+    },
+    {
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "fio-bp.dmail.co:7676"
+    },
+    {
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "producer"
+    }
+  ]
 }

@@ -30,8 +30,8 @@
         "longitude": 119.4179
       },
       "node_type": "query",
-      "api_endpoint": "http://api.dmail.co",
-      "ssl_endpoint": "https://api.dmail.co",
+      "api_endpoint": "http://fio-bp.dmail.co",
+      "ssl_endpoint": "https://fio-bp.dmail.co",
       "features": ["chain-api","fio-api"]
     },
     {

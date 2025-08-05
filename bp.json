@@ -2,15 +2,15 @@
   "producer_account_name": "bp@dmaildotco",
   "org": {
     "candidate_name": "DMail",
-    "website": "https://dmail.co",
-    "code_of_conduct": "https://dmail.co",
-    "ownership_disclosure": "https://dmail.co",
+    "website": "https://dmailbp.vercel.app",
+    "code_of_conduct": "https://dmailbp.vercel.app",
+    "ownership_disclosure": "https://dmailbp.vercel.app",
     "email": "admin@dmail.co",
     "github_user": "dmail-co",
-    "chain_resources": "https://dmail.co",
+    "chain_resources": "https://dmailbp.vercel.app",
     "branding": {
-      "logo_256": "https://dmail.co/logo_256.png",
-      "logo_1024": "https://dmail.co/logo_1024.png"
+      "logo_256": "https://dmailbp.vercel.app/static/media/logo-beta.27453fda.png",
+      "logo_1024": "https://dmailbp.vercel.app/static/media/logo-beta.27453fda.png"
     },
     "location": {
       "name": "California",
@@ -19,7 +19,7 @@
       "longitude": 119.4179
     },
     "social": {
-      "telegram": "kurtybot"
+      "telegram": "dmailofficial"
     }
   },
   "nodes": [{
@@ -30,8 +30,8 @@
         "longitude": 119.4179
       },
       "node_type": "query",
-      "api_endpoint": "http://fio-bp.dmail.co",
-      "ssl_endpoint": "https://fio-bp.dmail.co",
+      "api_endpoint": "http://dmail.dedyn.io",
+      "ssl_endpoint": "https://dmail.dedyn.io",
       "features": ["chain-api","fio-api"]
     },
     {
@@ -42,7 +42,7 @@
         "longitude": 119.4179
       },
       "node_type": "seed",
-      "p2p_endpoint": "fio-bp.dmail.co:7676"
+      "p2p_endpoint": "dmail.dedyn.io:3856"
     },
     {
       "location": {

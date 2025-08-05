@@ -42,7 +42,7 @@
         "longitude": 119.4179
       },
       "node_type": "seed",
-      "p2p_endpoint": "dmail.dedyn.io:3856"
+      "p2p_endpoint": "dmail.dedyn.io:1337"
     },
     {
       "location": {

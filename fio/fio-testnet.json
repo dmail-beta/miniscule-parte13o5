@@ -1,1 +1,57 @@
-
+{
+  "producer_account_name": "dmaildotcobp@fiotestnet",
+  "org": {
+    "candidate_name": "DMail",
+    "website": "https://dmailbp.vercel.app",
+    "code_of_conduct": "https://dmailbp.vercel.app",
+    "ownership_disclosure": "https://dmailbp.vercel.app",
+    "email": "admin@dmail.co",
+    "github_user": "dmail-co",
+    "chain_resources": "https://dmailbp.vercel.app",
+    "branding": {
+      "logo_256": "https://dmailbp.vercel.app/logo_256.png",
+      "logo_1024": "https://dmailbp.vercel.app/logo_1024.png"
+    },
+    "location": {
+      "name": "California",
+      "country": "US",
+      "latitude": 36.7783,
+      "longitude": 119.4179
+    },
+    "social": {
+      "telegram": "dmailofficial"
+    }
+  },
+  "nodes": [{
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "query",
+      "api_endpoint": "http://dmail.dedyn.io:1212",
+      "ssl_endpoint": "https://dmail.dedyn.io:1111",
+      "features": ["chain-api","fio-api"]
+    },
+    {
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "seed",
+      "p2p_endpoint": "dmail.dedyn.io:3856"
+    },
+    {
+      "location": {
+        "name": "California",
+        "country": "US",
+        "latitude": 36.7783,
+        "longitude": 119.4179
+      },
+      "node_type": "producer"
+    }
+  ]
+}
